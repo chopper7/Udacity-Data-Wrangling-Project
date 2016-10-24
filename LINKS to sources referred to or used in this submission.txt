@@ -1,0 +1,126 @@
+A list of Web sites, books, forums, blog posts, github repositories etc that I referred to or used in this submission
+
+---------------------------------------------------------------------
+
+
+UDACITY FORUMS
+
+A Question about the Scope of Data Cleaning - DAND P3 - Data Wrangling - P3- Wrangle OpenStreetMaps Data with MongoDB - Udacity Discussion Forum
+https://discussions.udacity.com/t/a-question-about-the-scope-of-data-cleaning/161724/2
+
+Lesson 6- -Tag Types- and -Improving the street names- - DAND P3 - Data Wrangling - MongoDB - Udacity Discussion Forum
+https://discussions.udacity.com/t/lesson-6-tag-types-and-improving-the-street-names/27247/16
+
+Lesson 6.4 element.attrib['uid'] - DAND P3 - Data Wrangling - MongoDB - Udacity Discussion Forum
+https://discussions.udacity.com/t/lesson-6-4-element-attrib-uid/25690/4
+
+Project - Creating example.osm file - Courses - Data Wrangling with MongoDB - Udacity Discussion Forum
+https://discussions.udacity.com/t/project-creating-example-osm-file/19191
+
+---------------------------------------------------------------
+
+
+OPEN STREET MAP DOCUMENTATION
+
+OpenStreetMap - Relation- -Las Vegas- (-170117-)
+https://www.openstreetmap.org/relation/170117
+
+OpenStreetMap Copyright and License page
+https://www.openstreetmap.org/copyright
+
+OpenStreetMap Database License
+https://wiki.openstreetmap.org/wiki/Open_Database_License
+
+OpenStreetMap Help
+https://www.openstreetmap.org/help
+
+OpenStreetMap Wiki
+https://wiki.openstreetmap.org/wiki/Main_Page
+
+OSM XML - OpenStreetMap Wiki
+https://wiki.openstreetmap.org/wiki/OSM_XML
+
+Tags - OpenStreetMap Wiki
+http://wiki.openstreetmap.org/wiki/Tags
+
+---------------------------------------------------------------
+
+
+MISC. LINKS
+
+13.1. csv — CSV File Reading and Writing — Python 2.7.11 documentation
+https://docs.python.org/2/library/csv.html
+
+A geek's scratch pad- Importing a CSV file into a SQLite3 database table in Python
+http://hosseinkaz.blogspot.com/2014/11/importing-csv-file-into-sqlite3-python.html
+
+Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation
+https://beautiful-soup-4.readthedocs.io/en/latest/
+
+cElementTree Module -effbot
+http://effbot.org/zone/celementtree.htm
+
+Converting XML to CSV with Python
+http://www.bearpanther.com/2013/09/14/converting-xml-to-csv-with-python/
+
+Creating a subquery to retrieve data from more than one table
+https://www.ibm.com/support/knowledgecenter/en/SS9UMF_10.1.0/ugr/tpc/dsq_create_subquery_retrieve_data.html?view=embed
+
+defaultdict in Python - Accelebrate Blog
+https://www.accelebrate.com/blog/using-defaultdict-python/
+
+Free 89002 ZIP Code Map, Statistics, and More for , NV
+http://www.unitedstateszipcodes.org/
+
+Get a List of Keys From a Dictionary in Both Python 2 and Python 3
+http://btmiller.com/2015/04/13/get-list-of-keys-from-dictionary-in-python-2-and-3.html
+
+HTML Ampersand Character Codes
+http://rabbit.eng.miami.edu/info/htmlchars.html
+
+I am busy changing the world- Python - Write dictionary data to csv file
+http://www.dangtrinh.com/2013/09/python-write-dictionary-data-to-csv-file.html
+
+Merging data from multiple tables into a single column - IBM Knowledge Center
+https://www.ibm.com/support/knowledgecenter/SS9UMF_10.1.0/ugr/tpc/dsq_merge_data_mult_tables.html
+
+Parsing XML Documents - Python Module of the Week
+https://pymotw.com/2/xml/etree/ElementTree/parse.html
+
+Python 101- Reading and Writing CSV Files - The Mouse Vs. The Python
+http://www.blog.pythonlibrary.org/2014/02/26/python-101-reading-and-writing-csv-files/
+
+Quick Command Line Reports from CSV Data Parsed Out of XML Data Files - OUseful.Info, the blog..-
+https://blog.ouseful.info/2011/07/25/quick-command-line-reports-from-csv-data-parsed-out-of-xml-data-files/
+
+SQL Tutorial - Union
+http://www.tizag.com/sqlTutorial/sqlunion.php
+
+SQLite CSV import examples - with primary key (SEE LAST COMMENT)
+http://alvinalexander.com/android/sqlite-csv-import-data-table-primary-key#comment-3692
+
+SQLite Group By
+http://www.sqlitetutorial.net/sqlite-group-by/
+
+SQLite tutorial.net Import a CSV File Into a Table
+http://www.sqlitetutorial.net/sqlite-import-csv/
+
+SQLite Tutorials Point
+http://www.tutorialspoint.com/sqlite/index.htm
+
+The UNION [ALL], INTERSECT, MINUS Operators
+https://docs.oracle.com/cd/B19306_01/server.102/b14200/queries004.htm
+
+TIGER GIS Data (Topologically Integrated Geographic Encoding & Referencing) - GIS Geography
+http://gisgeography.com/tiger-gis-data-topologically-integrated-geographic-encoding-referencing/
+
+W3Schools SQL Tutorial
+http://www.w3schools.com/sql/default.asp
+
+XPath Syntax  - W3Schools
+http://www.w3schools.com/xsl/xpath_syntax.asp
+
+‘ascii’ codec can’t encode character- ordinal not in range(128) - Python Adventures
+https://pythonadventures.wordpress.com/2012/03/29/ascii-codec-cant-encode-character/
+
+----------------------------------------------------------------
