@@ -1,10 +1,5 @@
-
-/* SELECT DISTINCT user, COUNT(*) AS count
-FROM (SELECT uid, user FROM nodes
-UNION ALL
-SELECT uid, user FROM ways)
-GROUP BY user ORDER BY count DESC LIMIT 20;*/
-
+-- Exploratory SQL queries on natural features in map data
+-- A "scratch pad" of queries, most of which did not end up in final project report
 
 SELECT DISTINCT natural, waterway, water, name
 FROM way_tags
