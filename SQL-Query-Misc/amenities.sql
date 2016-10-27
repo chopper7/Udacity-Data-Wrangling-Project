@@ -1,4 +1,5 @@
-
+-- Exploratory SQL queries: amenity-related
+-- A "scratch pad" of queries, most of which did not end up in final project report
 
 -- amenity: DONE
 -- tourism: DONE
