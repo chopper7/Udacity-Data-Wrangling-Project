@@ -8,7 +8,7 @@ I took the course and prepared the project as part of [Udacity's **Data Analyst 
 ### Code
 Most of the Python scripts in this repo are based in one way or another on starter-code provided via quizzes in the Udacity Data Wrangling course content. Most of the code is written in **Python 2.7.11**, since at the time I took the course (May-June 2016), that is the version of Python being used in the course. As I learn more about Data Science, I would prefer to code in _Python 3.x_.
 
-The OpenStreetMap area I chose to explore was Las Vegas, Nevada, USA. A map file of the area was available for downloading in OSM format (which is basically XML). This repo includes both that OSM file ("lasvegas.osm") and a smaller sample file that is about 1/15 the size of the original OSM file.
+The OpenStreetMap area I chose to explore was Las Vegas, Nevada, USA. A map file of the area was available for downloading in OSM format (which is basically XML). This repo includes a smaller sample of the OSM map file that is about 1/15 the size of the original OSM map file.
 
 ### Folders
 - _Audit Scripts_: code used to audit the raw data from OpenStreetMap .
