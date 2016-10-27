@@ -1,4 +1,5 @@
--- physical structures
+-- Exploratory SQL queries: manmade structures
+-- A "scratch pad" of queries, most of which did not end up in final project report
 
 -- building: DONE
 -- landuse: DONE
@@ -168,8 +169,10 @@ motorway            547
 primary             485
 traffic_signals     262
 proposed            256
-unclassified        217  -- proposal to change to 'minor' (2011) but no action yet taken http://wiki.openstreetmap.org/wiki/Proposed_features/highway:minor;
--- also is ambiguous ("he distinction between unclassified and tertiary often causes confusion" -- http://wiki.openstreetmap.org/wiki/Tag:highway%3Dunclassified
+unclassified        217  -- proposal to change to 'minor' (2011) but no action yet taken
+                         -- http://wiki.openstreetmap.org/wiki/Proposed_features/highway:minor;
+-- also is ambiguous ("he distinction between unclassified and tertiary often causes confusion"
+-- http://wiki.openstreetmap.org/wiki/Tag:highway%3Dunclassified
 -- compared to the sheer volume of other more specific tags, its not a problem in vegas map, imho.
 
 
@@ -191,11 +194,18 @@ rvice, surface from way_tags where highway IN ('footway', 'path', 'pedestrian',
 'crossing', 'steps');
 -- "footway" value + "footway" tag and "foot" tag seems REDUNDANT
 -- highway 'feet' type values: 'footway', 'crossing', 'path', 'steps', 'pedestrian'
--- highway='footway' and 'foot'='yes' or 'designeated': if it's a footway of course foot woudl be 'yess' (but most "foot" values are NULL when highway= 'footway'; 
+-- highway='footway' and 'foot'='yes' or 'designeated': 
+--      if it's a footway of course foot woudl be 'yes' (but most "foot" values are NULL when highway= 'footway'; 
 -- highway= footway and the footway field go togeehtrer, with footway specifying TYPE
 -- of footway (mostly sidewalk and crosssing with a couple outliers, 'C' and 'S').
 
--- foot field is either 'yes' or 'designated', but almost exclusively when highway = 'path', not 'footway'; but a lot of the same ways are also 'yes' and 'designeated' for the bicycle fiedl too; proposal would be to change the ';path' tag into 2: 'footpath' and 'bikepath' however I can see the value where some users might want to search a simple yes|no for bicylce access or foot access (in which case SUGGESTION clean up the yes|designated terms. OSM wiki asserts using "designated" (not "yes"), meaning a way was specially designated for a certain usage.http://wiki.openstreetmap.org/wiki/Tag:access%3Ddesignated
--- so change the yes's to designated, possibley?
+-- foot field is either 'yes' or 'designated', but almost exclusively when highway = 'path', not 'footway';
+-- but a lot of the same ways are also 'yes' and 'designeated' for the bicycle fiedl too
+-- proposal would be to change the ';path' tag into 2: 'footpath' and 'bikepath'
+-- however I can see the value where some users might want to search a simple yes|no for bicylce access or foot access
+-- (in which case SUGGESTION clean up the yes|designated terms.
+-- OSM wiki asserts using "designated" (not "yes"), meaning a way was specially designated for a certain usage.
+-- http://wiki.openstreetmap.org/wiki/Tag:access%3Ddesignated
+-- so change the yes's to designated, possibly?
 -- alos messy, a few footway fields are = sidewalk where highway = path (instead of footway)
 -- Overall imporession is that users by and large have good effort to stick with OSM conventions, but lots of room for clarity.
