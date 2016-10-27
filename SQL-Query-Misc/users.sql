@@ -1,14 +1,19 @@
--- You were close -- the union all needs to have the same number of columns.
--- Try this:
+-- Exploratory SQL queries: contributor(user)-related
+-- A "scratch pad" of queries, most of which did not end up in final project report
+
+/*-------------------------------*/
+
+-- Help from ??? (didn't note the source!):
+-- "the UNION ALL needs to have the same number of columns.
+-- Try this:"
 SELECT AccountID, Date, BarAmount, BarFlag, NULL as FooType FROM Bar 
 UNION ALL
 SELECT AccountID, Date, NULL, NULL, FooType FROM Foo
--- That did it, thank you!
--- One thing to note for those that may reference this question in the future:
--- the order matters!
+-- "That did it, thank you!"
+-- "One thing to note for those that may reference this question in the future:"
+-- "the order matters!"
 
-
-/*------------------------------*/
+/*-------------------------------*/
 
 SELECT DISTINCT user, COUNT(*) AS count
 FROM (SELECT uid, user FROM nodes
