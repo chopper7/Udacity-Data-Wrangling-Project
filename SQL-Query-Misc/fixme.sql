@@ -1,6 +1,8 @@
--- "FIXME"
+-- Queries exploring the OSM "FIXME" key.
 
--- k="fixme" is used for human-entered, not automated; "to express that the mapper thinks there is an error" (http://wiki.openstreetmap.org/wiki/Key:fixme)
+-- k="fixme" is used for human-entered, not automated; 
+-- "to express that the mapper thinks there is an error"
+-- (http://wiki.openstreetmap.org/wiki/Key:fixme)
 
 SELECT FIXME, type, COUNT(*) AS count
 FROM
