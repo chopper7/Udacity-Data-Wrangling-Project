@@ -1,5 +1,5 @@
--- Addresses
-
+-- Exploratory SQL queries: street address-related
+-- A "scratch pad" of queries, most of which did not end up in final project report
 
 -- This puts all the addresses from both tables together:
 .once addresses.csv
