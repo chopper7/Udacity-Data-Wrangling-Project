@@ -177,7 +177,7 @@ if k.startswith('addr:'):
         v = clean_address.clean_nsew(v)
     # set the key to cleaned value
     if k in fields:
-        tag_attrs[k] = v           tag_attrs[k] = v
+        tag_attrs[k] = v
 ```
 
 **TIGER attributes**
